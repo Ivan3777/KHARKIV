@@ -66,11 +66,11 @@ a {
   margin-bottom: 30px;
 }
 
-.section-description__icon-box img {
+.section-description__icon-box a {
   margin-right: 76px;
 }
 
-.section-description__icon-box img:last-child {
+.section-description__icon-box a:last-child {
   margin-right: 0px;
 }
 
@@ -94,6 +94,13 @@ a {
   width: 1000px;
 }
 
+.section-map__title {
+  font-family: "Philosopher", sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .section-map {
   margin-bottom: 30px;
 }
@@ -113,4 +120,89 @@ hr {
 
 footer {
   height: 60px;
+}
+
+/* слайдер */
+
+/*
+essential styles:
+these make the slideshow work
+*/
+#slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1100px;
+  height: 700px;
+  padding: 0px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1100px;
+  height: 700px;
+  opacity: 0;
+  z-index: 1;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+/* .slide {
+  font-size: 40px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #333;
+  color: #fff;
+} */
+
+.slide:nth-of-type(1) {
+  background-image: url(../img/winter-4757711_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(2) {
+  background-image: url(../img/city-2685475_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(3) {
+  background-image: url(../img/park-5759132_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(4) {
+  background-image: url(../img/church-6233667_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(5) {
+  background-image: url(../img/city-6151217_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.section-slider {
+  margin-bottom: 30px;
 }
