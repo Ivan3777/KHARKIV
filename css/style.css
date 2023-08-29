@@ -122,12 +122,8 @@ footer {
   height: 60px;
 }
 
-/* слайдер */
+/* slider */
 
-/*
-essential styles:
-these make the slideshow work
-*/
 #slides {
   display: flex;
   align-items: center;
@@ -159,19 +155,6 @@ these make the slideshow work
   opacity: 1;
   z-index: 2;
 }
-
-/*
-non-essential styles:
-just for appearance; change whatever you want
-*/
-
-/* .slide {
-  font-size: 40px;
-  padding: 40px;
-  box-sizing: border-box;
-  background: #333;
-  color: #fff;
-} */
 
 .slide:nth-of-type(1) {
   background-image: url(../img/winter-4757711_1920.jpg);
