@@ -186,6 +186,60 @@ footer {
   background-size: cover;
 }
 
+.slide:nth-of-type(6) {
+  background-image: url(../img/anna-hunko-ImiAnCVFnuc-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(7) {
+  background-image: url(../img/anna-JDixdvHdvw4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(8) {
+  background-image: url(../img/anna-phjHvW8Lu_I-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(9) {
+  background-image: url(../img/astoriin-gica7mpu3s0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(10) {
+  background-image: url(../img/daria-doroshenkova-CpxhBp8qP-c-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(11) {
+  background-image: url(../img/diana-vyshniakova-egg2ZIw7bUI-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(12) {
+  background-image: url(../img/oleksandr-zhabin-OXXuYIR4jjw-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(13) {
+  background-image: url(../img/oleksandr-zhabin-y0GH0ataTnk-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide:nth-of-type(14) {
+  background-image: url(../img/yaroslav-romanenko-7YkwadIk2v8-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .section-slider {
   margin-bottom: 30px;
 }
